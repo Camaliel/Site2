@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="menu.css">
+    <title>GAME MANIA</title>
+</head>
+<body>
+<center><img src="head.png" alt=""></center>
+
+
+<!--- MENU-->
+  
+<nav id="menu-h">
+    <div>
+        <ul id="menu-h">         
+            <!--<div id="serv"><li><a href="servicos.html"><img src="000.png"/>Serviços</a></li></div>-->
+            <li><a href="Galeria.html">Galeria</a></li>
+            <li><a href="Colecionaveis.html">Colecionaveis</a></li>
+            <li><a href="https://www.toyshow.com.br/vitrine/pop-funko/pocket-pop-keychains-chaveiro-kevin-malone-the-office-funko">Produtos</a></li> 
+            <li><a href="Entrar.html">Entrar</a><div id="gif"></li>
+               
+                </ul>
+</nav>
+
+<!--- CABEÇALHO DESATIVADO-->
+
+</div>
+   
+    
+    <div class="head">
+    <!--<center><h1>GAME MANIA</h1></center>-->
+    <!--<center><h5>SEMPRE COM VOCÊ</h5></center>-->
+</div>
+
+<!--- RETANGULO DE ANUNCIO-->
+<div id="tres">
+    
+    <div id="quadrado">
+         
+        <div id="quad"><a href="https://www.toyshow.com.br/vitrine/pop-funko/pocket-pop-keychains-chaveiro-kevin-malone-the-office-funko"><img src="funko.jpg" alt=""></a></div>
+        <div id="quad1"><a href=""><img src="console.jfif" alt=""></a></div>
+        <div id="quad2"><a href="https://adrenaline.com.br/noticias/v/66758/nintendo-revive-game-watch-um-de-seus-primeiros-consoles-dos-anos-80"><img src="ds.png" alt=""></a></div>
+
+
+
+        <!--- RETANGULO ANUNCIO MAIOR-->
+    </div>
+<div id="teste3"><a href=""><img src="" alt=""></a>
+teste
+</div>
+
+
+</div> <!--- fundo transparemnmhttps://adrenaline.com.br/noticias/v/66758/nintendo-revive-game-watch-um-de-seus-primeiros-consoles-dos-anos-80nte do site -->
+
+<!--- RODAPE-->
+<div id="rodape"></div>
+
+<!--- FUNDO PRINCIPAL TELA TODA-->
+<div class="fundo"></div>
+
+
+
+
+<!--- BANNER EM JS-->
+<div>
+
+    <title>Banner rotativo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <script language="JavaScript">
+    var ultimo=-1, dBanner;
+    function carrega(x) {dBanner=x;Banners()}
+    function Banners()
+    {
+    var MNews = new Array(); 
+    MNews[0]= '<A HREF="banner1" target="_blank"><IMG SRC="banner1.png" WIDTH="1000" HEIGHT="150" BORDER="0" ALT=""></a>';
+    
+    MNews[1]= '<A HREF="banner2.jfif" target="_blank"><IMG SRC="banner2.jfif" WIDTH="1000" HEIGHT="150" BORDER="0" ALT=""></a>'
+                    
+    while((Numero = parseInt(Math.random()*MNews.length))==ultimo);
+    dBanner.innerHTML=MNews[Numero];
+    
+    setTimeout("Banners()",10000);
+    }
+    </script></head>
+    <div class="banner">
+    <body bgcolor="#FFFFFF" topmargin=0 leftmargin=150 text="#000000" onLoad=carrega(this.divBanner)>
+    <table width="120" border="0" cellspacing="0" cellpadding="0" height="60" bordercolor="#000000">
+    <tr>
+    <td>
+    </div>
+    <div align="left" id=divBanner></div>
+    </td>
+    </tr>
+    </table>
+</div>
+
+
+</body>
+</html>

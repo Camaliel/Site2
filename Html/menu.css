@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+*{
+    margin:  0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.head1 {margin: top 300px;;}
+#menu-h ul{
+    max-width: 76.6%;
+    list-style: none;
+    padding: 0;
+    background-color:rgb(37, 37, 39);
+
+}
+#menu-h ul li{
+    display: inline;
+}
+
+#menu-h ul li a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .8s;
+}
+#menu-h ul li a:hover {
+    background-color: rgb(197, 167, 33);
+    
+}
+#menu-h ul li:last-child a{
+    float: right;
+    background-color: rgb(57, 91, 185);
+}
+body{
+
+    background-image: url(fundo.jpeg);
+    background:-moz-repeating-linear-gradient();    
+}
+
+/*---------FUNDO BRANCO DO SITE*-----------------------------*/
+#tres {
+    width: 76.7%;
+    height: 1000px;
+    background-color: rgba(255, 250, 240, 0.555);
+    margin: 10px;
+    margin-left: 12%;
+    padding-top: 10px;
+}
+/*----------------------------------------------------------*/
+
+#rodape {
+    color: cornsilk;
+    font-style: oblique;
+    font-size: 20px;
+    display: inline-block;
+    width: 76.7%;
+    height: 60px ;
+    margin-right: 10px;
+    background-color: rgb(41, 42, 44);
+    margin-left: 12%;
+    list-style: none;
+    vertical-align: top;
+    float: left;
+    position: relative;
+}
+/* ---------- QUADROS DE ANUNCIOS ---------------*/
+#quad {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(27, 27, 27, 0.411);
+    margin: 10px;
+    margin-left: 5%;
+    display: inline;
+}
+#quad1{
+    width: 300px;
+    height: 200px;
+    background-color: rgba(27, 27, 27, 0.411);
+    display: inline-block;
+}
+#quad2{
+    width: 300px;
+    height: 200px;
+    background-color: rgba(27, 27, 27, 0.411);
+    display: inline-block;
+}
+
+#teste3 {
+    width: 917px;
+    height: 300px;
+    margin-left: 5%;
+    background-color: rgba(27, 27, 27, 0.411);
+    display: inline-block;
+    
+}
+/*------------------------------------------------------------*/
+#gif {
+    float: right;
+    display: inline;
+
+}
